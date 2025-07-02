@@ -10,7 +10,8 @@ import { writeFileSync } from "fs";
 
 const APIKey = 'D3HROBYAXKQQFHLI07P4LAX4Q4MEYP1UV4PO6QV6024BSIGCYL7MSUDK0F05T0UMOPN76L2MOUAL3K5G';
 
-// A simple Google form test page
+// A simple Google form test page. The admin page can be reached at:
+// https://docs.google.com/forms/d/10XG3gPDFOxvZf9cze4AugKoTKXc7If6UTqA8rCKckAY/edit
 
 const TestPageURL = "https://docs.google.com/forms/d/e/1FAIpQLSez2X2gKbvrc7K2c70eKAZqCuPlm_REtKkQR7nYI-uQaXjd7w/viewform";
 
