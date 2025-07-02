@@ -8,7 +8,7 @@
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
-    "dev": "npm run compile; node index.js",
+    "dev": "npm run compile; node src/index.js",
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
