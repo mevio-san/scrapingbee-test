@@ -70,7 +70,7 @@ class AppleService {
   // Take a screenshot of the webview. Say 'cheese'
 
   async takeScreenshot(path: string, window_width: number = 375) {
-    const response = await client.get({
+    const response = await this._client.get({
       url: this._url,
       params: {
         custom_google: true,
@@ -90,7 +90,7 @@ class AppleService {
     // Maybe factor out stuff like 'js_scenario' in production like we did
     // for 'ai_query' and 'ai_extract_rules'
 
-    await client.get({
+    await this._client.get({
       url: this._url,
       params: {
         custom_google: true,
